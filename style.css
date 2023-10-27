@@ -1,1 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/* grey background*/
+body {
+    background: #eee;
+    border: #eee;
+    font-family: 'source sans pro';
+}
+
+/* changed font, and font size */
+h1 {
+    font-family: 'Abril Fatface';
+    text-align: center;
+    font-size: 3em;
+    line-height: 16px;
+}
+
+h2 {
+    font-family: 'Roboto Slab';
+}
+
+/* whole white background */
+.newspaper-container {
+    margin: 5em auto;
+    box-shadow: 2px 2px 10px #ddd;
+    width: 700px;
+    border-radius: 25px;
+    background: white;
+    padding: 30px;
+}
+
+main {
+    text: #dd3232;
+}
+
+nav {
+    display: block;
+    border-top: 2px solid #f6f6f6;
+    border-bottom: 2px solid #f6f6f6;
+}
+
+/* nav side by side */
+nav li {
+    display: inline-block;
+    padding: 1px;
+}
+
+li {
+    margin: 3px;
+}
+
+/* adjusted border for nav */
+ul {
+    line-height: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #c2c2c2;
+}
+
+/*start of main article */
+h5 {
+    font-family:'Abril Fatface';
+    font-size: 1em;
+    color: #dd3232;
+}
+
+main img {
+    width: 100%;
+}
+
+main p {
+    text-align: justify;
+    font-size: 15px;
+    border-bottom: 2px solid #f6f6f6;
+    padding-bottom: 35px;
+}
+
+/* start of double article */
+.more-articles section {
+    display: inline-block;
+    width: 40%;
+}
+
+section {
+    padding: 30px;
+}
+
+section p {
+    text-align: justify;
+    font-size: 14px;
+}
